@@ -13,4 +13,14 @@ export class HeroeService {
   getHeroes():Heroe[] {
     return this.heroes;
   }
+
+  getUnHeroe(posicion:number):Heroe{
+    return this.heroes[posicion];
+  }
+
+  searchUnHeroe(nomheroe:string):number{
+    let index=this.heroes.findIndex(p=> p.nombre ==nomheroe)
+      return index;
+    
+  }
 }
