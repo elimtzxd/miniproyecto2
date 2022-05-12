@@ -70,5 +70,26 @@ export const HEROES: Heroe[]=[
     img: "/assets/img/ww.png",
     aparicion: "1941-10-21",
     casa: "DC"
+  },
+  {
+    nombre: "Flash",
+    bio: "Flash es el hombre más rápido vivo. El protector de Ciudad Central y Keystone, famoso por su súper-velocidad. Su legado, la Familia Flash se extiende a lo largo de la historia recurriendo a la enigmática Fuerza de Velocidad para ganar sus poderes. ",
+    img: "/assets/img/flash.png",
+    aparicion: "1940",
+    casa: "DC"
+  },
+  {
+    nombre: "SuperGirl",
+    bio: "Kara Zor-El, la prima de Superman que, después de 12 años de mantener sus poderes en secreto en la Tierra, decide finalmente abrazar sus habilidades sobrehumanas y ser la heroína que siempre estuvo destinada a ser. Kara, de trece años, escapó del condenado planeta Krypton con la ayuda de sus padres al mismo tiempo que el bebé Kal-El. Protegida y criada en la Tierra por su familia adoptiva, los Danvers, Kara creció a la sombra de su hermana adoptiva, Alex, y aprendió a ocultar los poderes fenomenales que comparte con su famoso primo para mantener su identidad en secreto.",
+    img: "/assets/img/supergirl.png",
+    aparicion: "1959-05",
+    casa: "DC"
+  },
+  {
+    nombre: "Sr Fantastico",
+    bio: "Sr. Fantástico es un personaje ficticio de Marvel Comícs, líder de Los 4 Fantásticos. Su nombre es Reed Richards pero al adquirir sus poderes tras ser irradiado por radiación cómisca en el espacio pasó a ser conocido como Sr. Fantástico.",
+    img: "/assets/img/Sr-Fantastico.png",
+    aparicion: "1961-11",
+    casa: "Marvel"
   }
 ];
