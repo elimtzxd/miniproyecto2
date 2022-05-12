@@ -13,6 +13,7 @@ import { UnheroeComponent } from './unheroe/unheroe.component';
 import { TablaComponent } from './tabla/tabla.component';
 import { VideoComponent } from './video/video.component';
 import { VillanosComponent } from './villanos/villanos.component';
+import { DomseguroPipe } from './domseguro.pipe';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { VillanosComponent } from './villanos/villanos.component';
     UnheroeComponent,
     TablaComponent,
     VideoComponent,
-    VillanosComponent
+    VillanosComponent,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule,

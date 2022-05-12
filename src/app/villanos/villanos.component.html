@@ -1,1 +1,12 @@
-<p>villanos works!</p>
+<h1 class="text-center">Villanos <small>Marvel y DC</small></h1>
+<div class="card-columns">
+<div class="card" *ngFor=" let v of misVillanos">
+  <img src={{v.img}} class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{v.nombre}}</h5>
+    <p class="card-text">{{v.bio}}</p>
+    
+  </div>
+  <a class="mb-3 btn-outline-primary btn-block">Ver Mas</a>
+</div>
+</div>
