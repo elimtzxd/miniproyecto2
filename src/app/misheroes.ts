@@ -61,7 +61,7 @@ export const HEROES: Heroe[]=[
     nombre: "Shazam",
     bio: "Un niño huérfano llamado Billy Batson, sería elegido por el mago Shazam para continuar su legado. Shazam daría a Billy 6 figuras griegas legendarias y cuando Billy dijo Shazam se convertiría en un hombre adulto con superpoderes de los más grandes dioses de toda la mitología griega.",
     img: "/assets/img/shazam.png",
-    aparicion: "Febrero de 1940",
+    aparicion: "1940-02",
     casa: "DC"
   },
   {
