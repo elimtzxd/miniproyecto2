@@ -49,5 +49,26 @@ export const HEROES: Heroe[]=[
     img: "assets/img/wolverine.png",
     aparicion: "1974-11-01",
     casa: "Marvel"
+  },
+  {
+    nombre: "Ciclope",
+    bio: "Es un mutante cuyos ojos emiten constantemente rayos de fuerza concusiva. Scott Summers se convirtió en el primer miembro de los 'X-Men, un grupo de trabajo con el objetivo de asegurar la coexistencia pacífica entre humanos y mutantes",
+    img: "/assets/img/ciclope.png",
+    aparicion: "1963",
+    casa: "Marvel"
+  },
+  {
+    nombre: "Shazam",
+    bio: "Un niño huérfano llamado Billy Batson, sería elegido por el mago Shazam para continuar su legado. Shazam daría a Billy 6 figuras griegas legendarias y cuando Billy dijo Shazam se convertiría en un hombre adulto con superpoderes de los más grandes dioses de toda la mitología griega.",
+    img: "/assets/img/shazam.png",
+    aparicion: "Febrero de 1940",
+    casa: "DC"
+  },
+  {
+    nombre: "Mujer Maravilla",
+    bio: "Diana es la hija del dios Zeus y la reina de las amazonas, Hipólita. Como todas las amazonas, fue entrenada en diferentes estilos de combate donde demostró gran talento desde pequeña, esto llamó la atención de Ares quien se convirtió en su maestro convirtiéndola en la más hábil amazona.",
+    img: "/assets/img/ww.png",
+    aparicion: "1941-10-21",
+    casa: "DC"
   }
 ];
