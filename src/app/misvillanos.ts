@@ -3,7 +3,7 @@ export const VILLANOS:Villano[]=[
     {
         nombre: "Duende Verde",
         bio: "Dueño de la empresa armamentística Oscorp, su principal problema es sufrir trastorno de personalidad múltiple y también esquizofrenia y todo ello se debe a la ingesta de un suero experimental con el que se mejoran las habilidades físicas..",
-        img: "assets/img/duendeverde.png",
+        img: "../assets/img/duendeverde.png",
         aparicion: "1941-11-01",
         casa:"Marvel"
       },

@@ -14,7 +14,8 @@ import { TablaComponent } from './tabla/tabla.component';
 import { VideoComponent } from './video/video.component';
 import { VillanosComponent } from './villanos/villanos.component';
 import { DomseguroPipe } from './domseguro.pipe';
-
+import { ModalComponent } from './modal/modal.component';
+import { UsuariosModule } from './usuarios/usuarios.module';
 @NgModule({
   declarations: [
     AppComponent,
@@ -28,11 +29,14 @@ import { DomseguroPipe } from './domseguro.pipe';
     TablaComponent,
     VideoComponent,
     VillanosComponent,
-    DomseguroPipe
+    DomseguroPipe,
+    ModalComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    UsuariosModule
   ],
   providers: [],
   bootstrap: [AppComponent]
