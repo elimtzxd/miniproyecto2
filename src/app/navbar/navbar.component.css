@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+.navbar {
+  background-color: black !important;
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+.navbar-brand{
+  color: #FCC852;
+  font-family: 'Bangers', cursive;
+  text-align: center;
+}
+
+.btn{
+  border-radius: 10px;
+  background-color: #F76932;
+  border-color: #F76932;
+  color: white;
+  box-shadow: -2px 2px;
+  font-size: 15px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+u{
+  text-decoration:underline #7E6429 3px;
+}
+

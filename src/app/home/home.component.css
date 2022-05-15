@@ -1,6 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300&display=swap');
+
 .jumbotron{
     position: relative;
     border: 1px solid black;
     background: #c4f590;
     text-align: center;
+    font-family: 'Roboto Flex', sans-serif;
 }
+
+.btn{
+  font-family: 'Roboto Flex', sans-serif;
+}
+
+
