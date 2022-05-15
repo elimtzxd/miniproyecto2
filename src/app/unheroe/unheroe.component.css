@@ -1,0 +1,17 @@
+.fondo2{
+    padding-top: 0.5%;
+    padding-bottom: 25%;
+    background-image: url("https://scontent.fagu3-1.fna.fbcdn.net/v/t39.30808-6/280955603_5459920014072557_7649501102794899302_n.jpg?_nc_cat=110&ccb=1-6&_nc_sid=730e14&_nc_ohc=yMg3aJIuW_MAX9iN4H3&tn=YqrbrjGVwTNhOp5A&_nc_ht=scontent.fagu3-1.fna&oh=00_AT_SgZFsKlEf8AcAQAemNPUGPoZxQIIO1GdyZ-5DNpXSLw&oe=6284F0DA");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 44vw;
+    width: 85vw;
+    background-position: center;
+    text-align: center;
+    position: absolute;
+    bottom: 4px;
+}
+
+h3{
+    size: 400px;
+}
