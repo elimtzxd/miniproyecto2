@@ -1,0 +1,12 @@
+body{
+    background-image: url("https://static1.cbrimages.com/wordpress/wp-content/uploads/2018/09/avengers-tower.png?q=50&fit=contain&w=750&h=&dpr=1.5");
+    background-attachment: local;
+    background-repeat: no-repeat;
+   
+}
+
+.alert alert-info{
+    position: center;
+    position: absolute;
+    right: 1500px;
+}
