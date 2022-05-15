@@ -1,13 +1,14 @@
-    <h1 class="text-center">Heroes <small>Marvel y DC</small></h1>
-    <div class="card-columns">
-    <div class="card" *ngFor=" let h of misHeroes">
-      <img src={{h.img}} class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">{{h.nombre}}</h5>
-        <p class="card-text">{{h.bio}}</p>
-        
+<h1 class="text-center">Heroes <small>De Marvel y DC</small></h1>
+<div class="container">
+      <div class="card" *ngFor="let h of misHeroes">
+        <img src="{{ h.img }}" class="card-img-top" alt="..." />
+        <div class="card-body">
+          <h5 class="card-title">{{ h.nombre }}</h5>
+          <p class="card-text">{{ h.bio }}</p>
+          <p class="card-text">
+            <small class="text-muted">Last updated a while ago</small>
+          </p>
+        </div>
+        <a class="mb-3 btn-outline-primary btn-block">Ver Mas</a>
       </div>
-      <a class="mb-3 btn-outline-primary btn-block">Ver Mas</a>
-    </div>
-</div>
-   
+  </div>
